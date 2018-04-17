@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">    
+    <persistence-unit name="francis-project" transaction-type="RESOURCE_LOCAL"><!--copy name to DAOUtils-->
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <!--Database-->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/francisdatabase"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            
+            <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+            <property name="hibernate.connection.isolation" value="2"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+
+            
+            
+            <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+            <property name="hibernate.connection.isolation" value="2"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            
+            <!-- Connection Pooling -->
+            <property name="hibernate.c3p0.min_size" value="20"/>
+            <property name="hibernate.c3p0.max_size" value="50"/>
+            <property name="hibernate.c3p0.timeout" value="500"/>
+            <property name="hibernate.c3p0.max_statements" value="100"/>
+            <property name="hibernate.c3p0.idle_test_period" value="3600"/>
+            <property name="hibernate.c3p0.privilegeSpawnedThreads" value="true"/>
+            <property name="hibernate.c3p0.contextClassLoaderSource" value="library"/>
+            <property name="statementCacheNumDeferredCloseThreads" value="1"/>
+            
+            <property name="hibernate.c3p0.initialPoolSize" value="10"/>
+            <property name="hibernate.c3p0.minPoolSize" value="5"/>
+            <property name="hibernate.c3p0.maxPoolSize" value="128"/>
+            <property name="hibernate.c3p0.maxStatements" value="50"/>
+            <property name="hibernate.c3p0.idleConnectionTestPeriod" value="1800"/> <!-- seconds -->
+            <property name="hibernate.c3p0.maxConnectionAge" value="10"/>
+            <property name="hibernate.c3p0.acquireRetryDelay" value="3000"/>
+            <property name="hibernate.c3p0.acquireRetryAttempts" value="0"/>
+            <property name="hibernate.c3p0.maxIdleTimeExcessConnections" value="300"/>
+            <property name="hibernate.c3p0.testConnectionOnCheckin" value="true"/>
+            <property name="hibernate.c3p0.preferredTestQuery" value="select 1 from dual"/>
+
+            <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+            
+            
+            
+        </properties>
+    </persistence-unit>
+</persistence>
