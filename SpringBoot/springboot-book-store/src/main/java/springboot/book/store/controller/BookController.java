@@ -21,7 +21,7 @@ import springboot.book.store.service.BookService;
 
 /**
  *
- * @author joel
+ * @author francis taguiam
  */
 @RestController
 public class BookController {

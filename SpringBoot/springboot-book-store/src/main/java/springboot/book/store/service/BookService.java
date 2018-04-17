@@ -14,7 +14,7 @@ import springboot.book.store.repository.BookRepository;
 
 /**
  *
- * @author joel
+ * @author francis taguiam
  */
 @Service
 public class BookService {

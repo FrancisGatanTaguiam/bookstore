@@ -7,7 +7,7 @@ package springboot.book.store.response;
 
 /**
  *
- * @author joel
+ * @author francis taguiam
  */
 public enum ServiceStatus {
     SUCCESS,

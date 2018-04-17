@@ -5,7 +5,7 @@ import springboot.book.store.entity.BookEntity;
 
 /**
  *
- * @author joel
+ * @author francis taguiam
  */
 public class BookListResponse extends BaseServiceResponse{
     private List<BookEntity> payload;

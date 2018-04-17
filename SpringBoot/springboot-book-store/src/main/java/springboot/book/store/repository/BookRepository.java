@@ -12,7 +12,7 @@ import springboot.book.store.entity.BookEntity;
 
 /**
  *
- * @author joel
+ * @author francis taguiam
  */
 public interface BookRepository extends CrudRepository<BookEntity,BigInteger>{
     List<BookEntity> findAll();

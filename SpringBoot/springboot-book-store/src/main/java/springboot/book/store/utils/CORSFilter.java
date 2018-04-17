@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 /**
  *
- * @author joel
+ * @author francis taguiam
  */
 @Configuration
 public class CORSFilter {
