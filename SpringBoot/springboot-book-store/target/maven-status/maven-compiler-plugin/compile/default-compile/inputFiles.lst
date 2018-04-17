@@ -1,0 +1,10 @@
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/utils/CORSFilter.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/repository/BookRepository.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/response/BookListResponse.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/response/DefaultResponse.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/response/ServiceStatus.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/BookStoreApplication.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/response/BaseServiceResponse.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/service/BookService.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/entity/Book.java
+/home/joel/NetBeansProjects/book-store/src/main/java/springboot/book/store/controller/BookController.java
